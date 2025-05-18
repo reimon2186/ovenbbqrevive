@@ -1,0 +1,379 @@
+body{
+    background-color: #feebdb;
+}
+.intro-bar {
+ 
+    line-height: 1.6em;
+    
+    color: #feebdb;
+    background-color: #feebdb;
+    text-align: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:30px;
+    padding-top: 50px;
+  
+}
+.page-title {
+    font-size: clamp(1.8rem, 5vw, 2.64rem);
+    margin-top: 0;
+    line-height: 1.6em;
+    text-align: center;
+    color: #fe5b26;
+    margin-bottom: 20px;
+    background-color: #feebdb;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    color: #000;
+    text-align: center;
+    line-height: 1.6em !important;
+    max-width: 1000px;
+    margin: 0 auto 30px;
+}
+
+.cta-banner {
+    text-align: center;
+    background-color: #005484;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+
+
+.section-title {
+    font-size: 2em;
+    color: #feebdb;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.oven-types {
+    text-align: center;
+    background-color: #feebdb;
+    padding: 50px 20px;
+}
+
+.oven-types h2 {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    color: #fe5b26;
+    margin-bottom: 30px;
+}
+
+.oven-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1800px;
+    align-items: stretch;
+}
+
+.oven-list li {
+    flex: 1 1 clamp(120px, 18vw, 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    max-width: 180px;
+}
+
+.oven-list img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    object-fit: contain;
+    max-height:100%;
+}
+
+.oven-types p {
+    font-size: clamp(1rem, 2.2vw, 1.2rem);
+    line-height: 1.6;
+    color: #333;
+    margin-top: 20px;
+    max-width:1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.cleaning-process .grid-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #feebdb;
+}
+
+.cleaning-process .grid-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cleaning-process .grid-row.reverse {
+    flex-direction: row-reverse;
+    background-color: #f8d4b4;
+}
+
+.cleaning-process .text,
+.cleaning-process .image {
+    flex: 1;
+    width: 50%;
+    padding: 0;
+}
+
+.cleaning-process .text h2 {
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    color: #fe5b26;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-top: 70px;
+}
+
+.cleaning-process .text h3 {
+    font-size: clamp(1.2rem, 1vw, 1.4rem);
+    color: #fe5b26;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+.step3gap {
+    margin-top:60px;
+}
+
+.cleaning-process .text p {
+    font-size: clamp(0.935rem, 0.8vw, 1.1rem);
+    margin-bottom: 20px;
+    line-height: clamp(1.6em, 3vw, 2em);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cleaning-process .image img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+   
+}
+
+
+.booking-process {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #fe5b26;
+    color: #000;
+
+    margin: 40px 0;
+    margin-top: 0;
+}
+.booking-process h2{
+    color: #000;
+    font-size: 36px;
+}
+.booking-process p{
+    font-size: 1.2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cta-button2 {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #000;
+    background-color: #feebdb;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.5s ease, box-shadow 0.3s ease, transform 0.5s ease;
+    text-align: center;
+}
+
+.cta-button2:hover {
+    background-color: #feebdb;
+    color:#000;
+    
+}
+
+
+.faq-section {
+    padding: 40px 20px;
+    background-color: #feebdb;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.faq-section h2 {
+    font-size: 2em;
+    color: #fe5b26;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fe5b26;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.faq-list li {
+    padding: 20px;
+    background: #fff7ef;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    border: 1px solid #fe5b26;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faq-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.faq-list strong {
+    color: #fe5b26;
+    font-size: 1.2em;
+}
+
+.faq-list p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+    line-height: 1.8em;
+    text-align: left;
+}
+.area-links-container{
+    background-color: #fe5b26;
+    padding: 50px 0;
+    flex-wrap: wrap;
+
+}
+.area-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1400px;
+    background-color: #fe5b26;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.area-links li {
+    flex: 1 1 clamp(150px, 20vw, 250px);
+    min-width: 285px;
+    max-width:300px;
+}
+
+
+
+.area-links a {
+    font-size: clamp(14px, 1.4vw, 18px);
+    line-height: 1.5em;
+    color: #555;
+    text-decoration: none;
+    background-color: #feebdb;
+    padding: 20px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: block;
+    max-width:300px;
+    transition: background-color 0.5s, color 0.3s, box-shadow 0.3s, transform 0.5s ease;
+}
+
+.area-links a:hover {
+    background-color: #feebdb;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 768px) {
+    .intro-text{
+        padding: 0px 10px;
+    }
+    .cleaning-process .grid-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cleaning-process .grid-row {
+        flex-direction: column;
+    }
+
+    .cleaning-process .grid-row.reverse {
+        flex-direction: column;
+        background-color: #feebdb;
+    }
+
+    .cleaning-process .text,
+    .cleaning-process .image {
+        width: 100%;
+     
+    }
+
+    .cleaning-process .text h2 {
+        font-size: 1.8em;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 20px;
+        
+    }
+
+    .cleaning-process .text h3 {
+        font-size: 1.2em;
+        text-align: center;
+        padding-left: 10px;
+        text-align: left;
+    }
+
+    .cleaning-process .text p {
+        font-size: 1em;
+        line-height: 1.8em;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        text-align: left;
+    }
+
+    .cleaning-process .image img {
+        height: auto;
+        max-height: 400px;
+        object-fit: contain;
+        padding-top: 10px;
+        display: none;
+    }
+    .step3gap {
+        margin-top:0px;
+    }
+    .faq-section {
+        padding: 40px 0px;  
+    }
+
+    .area-links{
+        padding:10px;
+    }
+    .area-links li {
+        min-width: 200px;
+    }
+}
+
+   
+@media only screen and (max-width: 63.75rem) {
+    .intro-text{
+        padding: 0 20px;
+    }
+}

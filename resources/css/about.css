@@ -1,0 +1,284 @@
+.intro-section {
+    background-color: #feebdb;
+    color: #fe5b26;
+    text-align: center;
+    padding: 10px 20px;
+}
+.intro-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 18px;
+    max-width: 900px;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.mission-vision {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px;
+    background-color: #fe5b26;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-content {
+    flex: 1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  
+    border-radius: 8px;
+    background-color: #feebdb;
+}
+
+.section-content h2 {
+    font-size: clamp(1.2em, 4vw, 2.5em);
+    margin-bottom: 10px;
+    color:#fe5b26;
+}
+
+.our-team {
+    padding: 40px;
+    text-align: center;
+    max-width:1200px;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.our-team h2 {
+    font-size: clamp(1.6em, 5vw, 2.4em);
+    margin-bottom: 0;
+    color: #fe5b26;
+    margin-left:65px;
+}
+.our-team h3 {
+    font-size: 1.8em !important;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #fe5b26;
+}
+
+
+.team-member {
+    display: flex;
+    flex-wrap: wrap;
+    max-width:1200px;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+   
+}
+.team-member p{
+    max-width:700px;
+    font-size: clamp(0.7em, 1.2vw, 1.1em);
+}
+
+.team-photo {
+    max-width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 3px solid #fe5b26;
+    object-fit: cover;
+}
+
+.team-info {
+    max-width: 600px;
+    text-align: left;
+}
+
+.team-info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.team-info p {
+    margin: 5px 0;
+}
+
+
+
+.why-choose-us {
+    text-align: center;
+    background-color: #feebdb;
+    padding: 80px 20px;
+    
+}
+
+.why-choose-us h2 {
+    color: #fe5b26;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.benefit {
+    background-color: #fff;
+    border: 1px solid #fe5b26;
+    border-radius: 10px;
+    padding: 30px;
+    height: clamp(300px, 45vh, 550px);
+    flex: 1 1 clamp(250px, 20vw, 400px);
+    min-width: clamp(250px, 20vw, 400px);
+    max-width: clamp(250px, 30vw, 450px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.benefit h3 {
+    color: #fe5b26;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.benefit p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+}
+.cta-button3{
+    margin-top: 50px;
+}
+@media (max-width: 85rem) {
+    .benefit h3 {
+        font-size: 24px;
+    }
+    
+    .benefit p {
+        font-size: 17.5px;
+    }
+}
+@media (max-width: 75.938rem) {
+    .benefit h3 {
+        font-size: 22px;
+    }
+    
+    .benefit p {
+        font-size: 17px;
+    }
+}
+@media (max-width: 72rem) {
+    .benefit h3 {
+        font-size: 21px;
+    }
+    
+    .benefit p {
+        font-size: 15.5px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .intro-section h1 {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+    .intro-section p {
+        font-size: 16px;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+
+    .mission-vision {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 20px;
+    }
+
+    .section-content {
+        padding: 15px;
+    }
+
+    .section-content h2 {
+        font-size: 1.5em;
+        margin-bottom: 8px;
+    }
+
+    .our-team {
+        padding:0;
+        width: 90%;
+    }
+
+    .our-team h2 {
+        font-size: 2em;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+    .our-team h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .team-member {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .team-member p {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .team-photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .team-info {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .why-choose-us {
+        padding: 40px 15px;
+    }
+
+    .why-choose-us h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .benefit {
+        padding: 20px;
+        min-width: unset;
+        max-width: 100%;
+    }
+
+    .benefit h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .benefit p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .cta-button3 {
+        margin-top: 30px;
+    }
+}
