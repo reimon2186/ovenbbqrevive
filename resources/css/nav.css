@@ -281,7 +281,7 @@
       max-width: 110rem;
       margin: auto;
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
       align-items: center;
       gap: 1.5rem;
       height: 100%;
