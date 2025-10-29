@@ -366,15 +366,16 @@ body {
 }
 
 .testimonial p {
-    font-size: clamp(0.8rem, 1.0vw, 1.0em);
+    font-size: clamp(0.7rem, 0.95vw, 1.0em);
     margin-bottom: 15px;
+    color: #000000;
 }
 
 .testimonial span {
     font-weight: bold;
-    color: #fe5b26;
+    color: #000000;
 }
-@media only screen and (max-width: 70rem) {
+@media only screen and (max-width: 78rem) {
     
 
     .testimonials {
