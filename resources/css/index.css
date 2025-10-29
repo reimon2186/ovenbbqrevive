@@ -776,12 +776,8 @@ iframe {
     }
 }
 
-@media only screen and (max-width: 90.625rem) {
-    .testimonial p {
-        font-size: 0.9rem;
-    }
-}
-@media only screen and (max-width: 73.5rem) {
+
+@media only screen and (max-width: 78rem) {
     .testimonials {
         padding: 20px;
         width: 100%;
@@ -796,10 +792,6 @@ iframe {
     }
 
     .testimonial {
-        max-width: 600px ;
-        padding: 15px;
-
-        height: 100px ;
         text-align: center;
         box-sizing: border-box;
     }
