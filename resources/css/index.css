@@ -98,6 +98,10 @@ a {
     transform: scale(1.1);
     color:#fff;
 }
+.hero3{
+    
+    display:none;
+}
 
 @media only screen and (max-width: 60rem) {
 
