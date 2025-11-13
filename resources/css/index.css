@@ -383,8 +383,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    
-    max-width: 1400px;
     width: 100%;
 }
 
@@ -414,9 +412,10 @@ body {
 }
 
 .service-text p {
-    font-size: 1.2em;
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
     color: #333;
     margin-bottom: 15px;
+    margin-right: 10px;
 }
 .one{
     padding-bottom:80px;
