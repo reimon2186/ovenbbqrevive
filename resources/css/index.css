@@ -531,7 +531,7 @@ body {
 .contact-us,
 .quick-links, li {
     flex: 1.2;
-    margin: 0 20px;
+
     line-height: 1.6em;
 }
 
@@ -895,9 +895,7 @@ iframe {
         
         width:100px;
     }
-    .footer-top{
-        padding-left:0px !important;
-    }
+
 }
 @media only screen and (max-width: 27.25rem) {
     .quick-links{
