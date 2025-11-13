@@ -87,7 +87,6 @@ a {
 }
 
 .quote-input {
-    width: 100%;
     font-size: 1.1em;
     border: 2px solid #fff;
     border-radius: 5px;
@@ -746,9 +745,7 @@ iframe {
     }
 }
 @media only screen and (max-width: 73.125rem) {
-    .quote-button{
-        font-size:1.5rem;
-    }
+
     .quote-input{
         font-size: 0.8rem;
     }
@@ -797,12 +794,9 @@ iframe {
 }
 @media only screen and (max-width: 63.25rem) {
     .quote-button{
-        font-size:1.3rem;
         padding: 15px 20px;
     }
-    .quote-input{
-        font-size: 0.6rem;
-    }
+
 }
 @media only screen and (max-width: 76.25rem) {
     .service-text h3{
