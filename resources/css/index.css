@@ -186,9 +186,9 @@ body {
 }
 
 .hero2-title {
-    font-size: clamp(2rem, 6vw, 3rem);
+    font-size: clamp(1.5rem, 4vw, 3rem);
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: clamp(0.75rem, 2vw, 1.25rem);
     color: #000;
     text-align: center;
     padding: 0 clamp(16px, 3vw, 48px);
@@ -196,7 +196,7 @@ body {
 }
 
 .hero2-subtitle {
-    font-size: 1.2em;
+    font-size: clamp(1rem, 3vw, 1.2rem);
     margin-bottom: 15px;
     color: #000000;
     max-width: 1200px;
@@ -435,7 +435,7 @@ body {
 }
 
 .testimonial p {
-    font-size: clamp(0.7rem, 1vw, 1.0em);
+    font-size: clamp(0.9rem, 1vw, 1.0em);
     margin-bottom: 15px;
     color: #000000;
 }
@@ -913,7 +913,7 @@ iframe {
             width:100px;
         }
     }
-    @media only screen and (max-width: 56.25rem) {
+    @media only screen and (max-width: 65rem) {
     .footer-top {
         flex-direction: column;
         align-items: left;
