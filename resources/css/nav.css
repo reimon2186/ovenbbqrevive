@@ -314,7 +314,7 @@
       height: 100%;
       justify-content: flex-start;
       align-items: center;
-      gap: clamp(0.2rem, 0.3vw, 2.25rem);
+      gap: clamp(0.2rem, 4vw, 5.25rem);
     }
     #cs-navigation .cs-li {
       list-style: none;
