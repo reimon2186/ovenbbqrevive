@@ -195,12 +195,13 @@ body {
     color: #000;
     text-align: center;
     padding: 0 clamp(16px, 3vw, 48px);
+    padding-top: clamp(1rem, 4vw, 3rem);
 }
 
 .hero2-subtitle {
     font-size: 1.2em;
     margin-bottom: 15px;
-    color: #fe5b26;
+    color: #000000;
     max-width: 1200px;
     text-align: center;
     padding: 0 clamp(16px, 3vw, 48px);
@@ -218,6 +219,7 @@ body {
     margin-bottom: 40px;
     background-color: #fe5b26;
     color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .cta-button:hover {
@@ -236,6 +238,7 @@ body {
     margin-bottom: 40px;
     background-color: #feebdb;
     color: #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .cta-button2:hover {
@@ -254,6 +257,7 @@ body {
     margin-bottom: 40px;
     background-color: #fe5b26;
     color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .cta-button3:hover {
@@ -267,7 +271,7 @@ body {
 
 .why-us {
     text-align: center;
-    background-color: #fe5b26;
+    background-color: #fdd1ad;
     padding: 40px 20px;
   
   
@@ -394,7 +398,7 @@ body {
 }
 
 .testimonials {
-    background-color: #fe5b26;
+    background-color: #feebdb;
     text-align: center;
     padding: 20px 20px;
     padding-bottom: clamp(3.25rem, 4vw, 6.5rem);
@@ -402,9 +406,9 @@ body {
 }
 
 .testimonials h2 {
-    font-size: clamp(1.2rem, 2.5vw, 2.5em);
+    font-size: clamp(1.2rem, 2.2vw, 2.5em);
     font-weight: bold;
-    color: #fff;
+    color: #000;
     margin-bottom: 40px;
 }
 
@@ -434,7 +438,7 @@ body {
 }
 
 .testimonial p {
-    font-size: clamp(0.7rem, 0.95vw, 1.0em);
+    font-size: clamp(0.7rem, 1vw, 1.0em);
     margin-bottom: 15px;
     color: #000000;
 }
@@ -558,7 +562,11 @@ iframe {
         margin: 0;
         overflow-x: hidden;
     }
- 
+ .quick-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8em;
+}
     
     .hero3{
         display: block;
