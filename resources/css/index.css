@@ -130,9 +130,7 @@ a {
 
 @media only screen and (max-width: 60rem) {
 
-    .hero{
-        display:none;
-    }
+
   
     .hero-container {
         width: 100%;
