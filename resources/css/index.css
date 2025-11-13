@@ -828,17 +828,26 @@ iframe {
     }
 
     .service-image {
-
         width: 90%;
         margin-bottom: 15px;
     }
+    .service-images img {
+        max-width: clamp(20%, 38%, 50%);
+    }
+
 
     .service-text {
-        max-width: 100%;
+        max-width: 90%;
         padding: 0 10px;
         text-align: center;
     }
 }
+@media only screen and (max-width: 55.25rem) {
+    .service-images img {
+        max-width: 48;
+    }
+}
+
 @media only screen and (max-width: 63.25rem) {
     .quote-button{
         padding: 15px 20px;
