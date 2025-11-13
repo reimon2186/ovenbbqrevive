@@ -271,6 +271,10 @@ body {
 .change-color:hover {
     color: #fe5b26;
 }
+.services {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 
 .why-us {
