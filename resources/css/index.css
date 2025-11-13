@@ -264,7 +264,13 @@ body {
     transform: scale(1.1);
 }
 
+.change-color {
+    transition: color 0.2s ease-in-out;
+}
 
+.change-color:hover {
+    color: #fe5b26;
+}
 
 
 .why-us {
