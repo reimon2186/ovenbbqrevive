@@ -842,7 +842,7 @@ iframe {
         text-align: center;
     }
 }
-@media only screen and (max-width: 55.25rem) {
+@media only screen and (max-width: 40.25rem) {
     .service-images img {
         max-width: 48%;
     }
