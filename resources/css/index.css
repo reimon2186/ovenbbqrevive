@@ -272,7 +272,7 @@ body {
     color: #fe5b26;
 }
 @media only screen and (max-width: 1170px) {
-    .service {
+    .services2 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -281,13 +281,13 @@ body {
         padding-top: 50px;
     }
 
-    .service-image {
+    .services2-image {
         flex: 0 0 50%;
         max-width: 50%;
         margin-bottom: 0;
     }
 
-    .service-text {
+    .services2-text {
         flex: 0 0 100%;
         max-width: 100%;
         padding: 10px;
@@ -295,7 +295,7 @@ body {
     }
 }
 @media only screen and (max-width: 480px) {
-    .service-image {
+    .services2-image {
         flex: 0 0 100%;
         max-width: 100%;
         margin-bottom: 15px;
