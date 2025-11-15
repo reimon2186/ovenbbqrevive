@@ -1,5 +1,5 @@
 .page-title {
-    font-size: 2.2em;
+    font-size: clamp(1.4em, 4.5vw, 2.2em);
     line-height: 1.4em;
     background-color: #feebdb;
     color: #000000;
@@ -10,7 +10,7 @@
 }
 
 .intro-bar {
-    font-size: 1.2em;
+    font-size: clamp(0.95em, 3.5vw, 1.2em);
     line-height: 1.6em;
     color: #000;
     background-color: #feebdb;
@@ -24,7 +24,7 @@
     margin: 0 auto;
 }
 .area-links-container{
-    background-color: #fe5b26;
+    background-color: #fdd1ad;
     padding: 50px;
     flex-wrap: wrap;
 
@@ -34,7 +34,7 @@
     padding: 0;
     margin: 0 auto;
     max-width: 1400px;
-    background-color: #fe5b26;
+    background-color: #fdd1ad;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
