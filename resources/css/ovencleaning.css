@@ -22,6 +22,7 @@
 .intro-text{
     max-width:1200px;
     margin: 0 auto;
+    padding: 0 clamp(12px, 4vw, 32px);
 }
 .area-links-container{
     background-color: #fdd1ad;
