@@ -43,6 +43,13 @@
     text-align: center;
 }
 
+.area-links-title {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    color: #000000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 .area-links li {
     flex: 1 1 clamp(150px, 20vw, 250px);
     min-width: 285px;
