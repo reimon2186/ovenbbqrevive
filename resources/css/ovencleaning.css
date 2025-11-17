@@ -44,11 +44,12 @@
 }
 
 .area-links-title {
-    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    font-size: clamp(1.2rem, 3vw, 1.8em);
     color: #000000;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     text-align: center;
     display: block;
+    font-weight: 800;
 }
 
 .area-links li {
