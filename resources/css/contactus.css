@@ -141,7 +141,6 @@ form#contactForm button:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
         margin: 0;
         padding: 15px;
         padding-top: 0px;
@@ -153,14 +152,14 @@ form#contactForm button:hover {
     }
 
     .container {
-        width: 100%;
+        width: 96%;
         max-width: 100%;
         padding: 0 15px;
         margin: 0;
     }
 
     form {
-        width: 100%;
+        width: 98%;
         max-width: 100%;
         padding: 0;
         margin: 0;
