@@ -175,6 +175,7 @@ body{
     font-size: 1.2em;
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 .cta-button2 {
     display: inline-block;
@@ -248,18 +249,30 @@ body{
     line-height: 1.8em;
     text-align: left;
 }
+
+.intro-bar-area {
+    line-height: 1.6em;
+    color: #fdd1ad;
+    background-color: #fdd1ad;
+    text-align: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px clamp(1rem, 5vw, 3rem) 30px clamp(1rem, 5vw, 3rem);
+}
 .area-links-container{
     background-color: #fdd1ad;
     padding: 50px 0;
     flex-wrap: wrap;
 
 }
+
 .area-links {
     list-style: none;
     padding: 0;
     margin: 0 auto;
     max-width: 1400px;
-    background-color: #feebdb;
+    background-color: #fdd1ad;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
