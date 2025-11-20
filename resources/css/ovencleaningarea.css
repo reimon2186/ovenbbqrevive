@@ -9,9 +9,7 @@ body{
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom:30px;
-    padding-top: 50px;
-  
+    padding: 50px clamp(1rem, 5vw, 3rem) 30px clamp(1rem, 5vw, 3rem);
 }
 .page-title {
     font-size: clamp(1.2rem, 7vw, 2.64rem);
@@ -166,13 +164,12 @@ body{
     padding: 30px 20px;
     background-color: #fdd1ad;
     color: #000;
-
     margin: 40px 0;
     margin-top: 0;
 }
 .booking-process h2{
     color: #000;
-    font-size: 36px;
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
 }
 .booking-process p{
     font-size: 1.2em;
@@ -252,7 +249,7 @@ body{
     text-align: left;
 }
 .area-links-container{
-    background-color: #feebdb;
+    background-color: #fdd1ad;
     padding: 50px 0;
     flex-wrap: wrap;
 
