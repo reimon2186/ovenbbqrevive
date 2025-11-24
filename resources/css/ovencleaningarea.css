@@ -54,7 +54,7 @@ body{
 }
 
 .oven-types h2 {
-    font-size: clamp(1.8rem, 3vw, 2.4rem);
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
     color: #000000;
     margin-bottom: 30px;
 }
