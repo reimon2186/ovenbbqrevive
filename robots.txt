@@ -5,4 +5,4 @@ Disallow: /terms-and-conditions/
 
 Allow: /resources/images/
 
-Sitemap: https://ovencleaningbasingstoke.co.uk/sitemap.xml
+Sitemap: https://ovenbbqrevive.co.uk/sitemap.xml
