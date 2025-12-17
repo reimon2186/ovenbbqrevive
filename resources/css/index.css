@@ -75,7 +75,112 @@ a {
   background-color: #fe5b26;
   
 }
+#steps-889 {
+  padding: clamp(2.25rem, 4vw, 5.5rem) clamp(1rem, 5vw, 2rem);
+  background: #fff;
+  padding-bottom: clamp(3.25rem, 5vw, 6.5rem);
+  padding-top: clamp(3.25rem, 5vw, 6.5rem);
+}
 
+#steps-889 .cs-container {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: clamp(2rem, 4vw, 3rem);
+}
+
+#steps-889 .cs-title {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  line-height: 1.2;
+  color: #000000;
+  margin: 0;
+}
+
+#steps-889 .cs-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(1rem, 2.5vw, 1.5rem);
+  counter-reset: steps;
+}
+
+@media (min-width: 68rem) {
+  #steps-889 .cs-steps {
+    grid-template-columns: repeat(4, 1fr);
+    gap: clamp(1rem, 2vw, 1.25rem);
+  }
+}
+
+#steps-889 .cs-step {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 14px;
+  padding: 1.25rem;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#steps-889 .cs-step-num {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 999px;
+  background: #fe5b26;
+  color: #000;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  font-size: 1rem;
+}
+
+
+#steps-889 .cs-h4 {
+  font-size: 1.125rem;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0;
+}
+
+#steps-889 .cs-item-p {
+  font-size: 1rem;
+  line-height: 1.55;
+  color: #000;
+  margin: 0;
+}
+
+#steps-889 .cs-button-solid {
+  align-self: start;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+  padding: 0.9rem 1.25rem;
+  background-color: #fe5b26;
+  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  box-shadow: 0 4px 0 #fe5b26;
+}
+
+#steps-889 .cs-button-solid:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 0 #fe5b26;
+}
+
+#steps-889 .cs-button-solid:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 0 #fe5b26;
+}
 
 .hero3{
     
