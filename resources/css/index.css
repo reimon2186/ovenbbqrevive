@@ -107,7 +107,7 @@ a {
   counter-reset: steps;
 }
 
-cta-row {
+.cta-row {
     text-align: center;
 
 }
