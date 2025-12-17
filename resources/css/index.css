@@ -25,6 +25,8 @@ a {
     padding-bottom: clamp(2.25rem, 4vw, 5.5rem);
     padding-left: clamp(1rem, 5vw, 2rem);
     padding-right: clamp(1rem, 5vw, 2rem);
+    border-left: 210px solid #ffe1c8;
+    border-right: 210px solid #ffe1c8;
 }
 .faults h2 {
   font-size: 1.8rem;
