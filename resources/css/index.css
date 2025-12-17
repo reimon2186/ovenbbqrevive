@@ -107,6 +107,11 @@ a {
   counter-reset: steps;
 }
 
+cta-row {
+    text-align: center;
+
+}
+
 @media (min-width: 68rem) {
   #steps-889 .cs-steps {
     grid-template-columns: repeat(4, 1fr);
