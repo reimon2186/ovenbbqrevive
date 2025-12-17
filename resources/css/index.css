@@ -15,6 +15,66 @@ a {
     width:100%;
     background-color: #fff;
 }
+
+.faults {
+    background-color: #fff;
+    color: #000000;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding-top: clamp(2.25rem, 4vw, 5.5rem);
+    padding-bottom: clamp(2.25rem, 4vw, 5.5rem);
+    padding-left: clamp(1rem, 5vw, 2rem);
+    padding-right: clamp(1rem, 5vw, 2rem);
+}
+.faults h2 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 0 0 3rem 0;
+  letter-spacing: -0.01em;
+  color: #004376;
+}
+.fault-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.75rem 2.25rem;
+}
+
+@media (min-width: 40rem) {
+.fault-list { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 64rem) {
+  .fault-list { grid-template-columns: repeat(3, 1fr); }
+}
+
+.fault-list li {
+  position: relative;
+  padding-left: 1.9rem;
+  font-size: clamp(0.8rem, 0.875rem + 0.8vw, 1.25rem);
+  line-height: 1.5;
+}
+
+.fault-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 0rem;
+  display: grid;
+  place-items: center;
+  font-size: 1.0rem;
+  font-weight: 900;
+  color: #004376;
+  background-color: #e6bc42;
+  
+}
+
+
 .hero3{
     
     display:none;
