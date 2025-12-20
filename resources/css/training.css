@@ -1,7 +1,7 @@
 :root{
   --brand-blue:#000000;
   --brand-gold:#fe5b26;
-  --ink:#0d1b2a;
+  --ink:#000000;
 }
 
 
@@ -40,7 +40,7 @@
 }
 
 .pricing-card{
-  background:#fff;
+  background: #fff7ef;
   border:2px solid var(--brand-gold);
   border-radius: 18px;
   padding: clamp(2rem, 5vw, 3.25rem);
