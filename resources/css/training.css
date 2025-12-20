@@ -1,5 +1,5 @@
 :root{
-  --brand-blue:#005484;
+  --brand-blue:#000000;
   --brand-gold:#fe5b26;
   --ink:#0d1b2a;
 }
@@ -7,7 +7,7 @@
 
 .pricing-section{
   color:var(--brand-blue);
-  background:#ffffff;
+  background:#feebdb;
   padding-top:clamp(3.25rem, 4vw, 6.5rem);
   padding-bottom:clamp(3.25rem, 4vw, 6.5rem);
   padding-left:clamp(1rem, 3vw, 2rem);
@@ -120,8 +120,8 @@
 
 .btn-primary {
   --btn: #fe5b26;
-  --btn-d1: #cb9d19;
-  --btn-d2: #b78d16;
+  --btn-d1: #fe5b26;
+  --btn-d2: #fe5b26;
   background: var(--btn);
   color: #ffffff;
   padding-top: clamp(1.05rem, 1vw, 2.5rem);
